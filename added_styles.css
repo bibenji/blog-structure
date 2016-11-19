@@ -1,0 +1,283 @@
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    font-family: montserratregular;	
+}
+
+#main { background-color: white;}
+
+#carousel img {
+	margin: 0px auto;
+	width: 100%;
+	height: 300px;
+}
+
+#pub {
+	text-align: center;
+}
+
+#titre {
+	background-color: #ecf7f3;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+}
+#titre img {
+    margin: 20px auto;    
+}
+
+.footer {
+    background-color: #3d4743;
+    padding: 20px 30px 40px;
+}
+
+#footer {
+	/*background-color: #083e77;*/
+    background-color: #3d4743;
+	text-align: center;
+	color: white;
+}
+
+#footer h2 {
+    font-size: 150%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    
+}
+
+#footer img {
+    display: inline-block;
+    width: 100px;
+}
+
+.more {
+	color: grey;
+	font-weight: bold;
+    text-align: center;
+}
+
+.tit-art {
+	/*color: #818181;*/
+    color: #d72966;
+	/*font-weight: bold;*/
+    font-family: Verdana;
+   
+}
+.tit-large-6 {    
+    font-weight: bold;
+    font-size: 150%;
+    background-color: #fff;
+    width: 90%;
+    display: block;
+    position: relative;
+    margin: -50px auto 0px;    
+    padding: 5px 20px;
+    line-height: 30px;
+}
+
+.tit-large-3 {
+    font-size: 150%;
+    /*color: #4d4d4d;*/
+    line-height: 30px;
+}
+
+.descri-art {
+	color: grey;
+    display: block;
+    /*margin-bottom: 30px;*/
+    text-align: justify;
+}
+
+.arts_pub img {
+    height: 150px;
+}
+.arts_pub .tit-art {
+    margin-top: -5px;
+    font-size: 130%;
+    line-height: 25px;
+    font-family: Verdana;
+}
+.info-art, .cat-infos-art {
+    font-size: 90%;
+    color: #789;
+}
+
+.section {
+    //border-top: 1px solid grey;
+    margin-bottom: 10px;
+    
+    color: #2199e8;
+    text-align: left;
+    
+}
+
+.la-cat-info, .lacat {
+    
+    color: #35363f;
+}
+
+.cat-link-article {
+    margin-bottom: 20px;
+    display: block;
+}
+.cat-link-article:hover {
+    background-color: #87ceeb;
+}
+.cat-link-article img {
+    width: 100%;
+    max-height: 260px; 
+}
+.cat-tit-art {
+	color: #d72966;
+    font-family: Verdana;
+    font-size: 200%;
+	/*font-weight: bold;*/
+}
+
+.cat-descri-art {
+	color: #848484;
+}
+
+    
+
+#social-link {
+    position: absolute;
+    width: 40px;
+    top: 0;
+    left: -45px;
+    border-right: #3c4641 1px solid;
+}
+#social-link img {
+    width: 75%;
+    height: 30px;    
+}
+.aff-un-article {
+    position: relative;
+    line-height: 30px;
+    
+    /*
+    border-right: solid 1px #3c4641;
+    width: 96%;
+    padding-right: 4%;
+    */
+}
+
+
+
+.aff-un-article h2 {
+    line-height: 50px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    text-align: left;
+}
+
+.aff-un-article h3 {
+	/*border-bottom: solid 1px black;*/	
+	color: #414141;
+    margin: 0px;
+}
+.aff-un-article img {
+    width: 100%;
+    margin: 10px auto;
+}
+
+.one-art img {
+    /*height: 120px;*/
+    width: 100%;
+}
+
+.one-art:hover {
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.orbit-image {
+    height: 400px;
+}
+
+.pagination {
+    text-align: center;
+}
+
+.one-more-art {
+    position: relative;    
+    margin-bottom: 20px;
+    padding: 0px;
+}
+.one-more-art img {
+    height: 225px;
+    width: 100%;
+}
+.tit-more-art {
+    position: absolute;
+    top: 0; left: 0;
+    background-color: rgba(0,0,0,0.5);    
+    width: 100%;
+    height: 225px;
+    display: none;
+}
+.one-more-art:hover .tit-more-art {
+    display: block;
+}
+.tit-more-art span {
+    text-align: center;
+    color: white;
+    width: 80%;
+    margin: 10%;
+    display: block;
+    font-size: 125%;
+    font-weight: 900;
+    
+}
+
+.one-comment {
+    color: dimgrey;
+}
+.one-comment img {
+
+}
+
+#zone_notation {
+    background-color: #b2c7d9;
+}
+#form_notation {    
+    padding: 20px;
+}
+
+.one-ebook {
+    color: grey;
+    margin-bottom: 20px;
+}
+.one-ebook p {
+    text-align: center;
+    color: black;
+    margin-top: 5px;
+    
+}
+.one-ebook img {
+    width: 250px;
+    height: 350px;
+    margin: 0px auto;
+    display: block;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.descri-cat {
+    color: #1585cf;
+}
+
+#ico-search {
+    height: 15px;
+    vertical-align: bottom;
+}
+
+#result-search img {
+    height: 130px;
+}
